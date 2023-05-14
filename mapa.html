@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Stylesheet/mapaStyle.css" />
+    <script src="./Scripts/grafo.js" defer></script>
+    <script src="./Scripts/form.js" defer></script>
+    <title>Grafo NFS</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <div class="left-side">
+          <div class="logo">NFS</div>
+        </div>
+      </div>
+      <div class="contentBox">
+        <div class="response">
+          <div class="entradas">
+            <form id="form">
+              <div>
+                <label class="form-label" for="initial-node"
+                  >Digite o nó inicial:</label
+                ><br />
+                <input
+                  class="textbox"
+                  type="text"
+                  id="initial-node"
+                  name="initial-node"
+                /><br />
+                <label class="form-label" for="final-node"
+                  >Digite o nó final:</label
+                ><br />
+                <input
+                  class="textbox"
+                  type="text"
+                  id="final-node"
+                  name="final-node"
+                />
+              </div>
+              <input
+                class="submit-bfs"
+                type="submit"
+                value="BFS"
+                onclick="rodaBfs()"
+              />
+              <input
+                class="submit-dfs"
+                type="submit"
+                value="DFS"
+                onclick="rodaDfs()"
+              />
+            </form>
+            <button
+              class="restart-graph"
+              style="display: none"
+              onclick="location.reload()"
+            >
+              Reiniciar
+            </button>
+          </div>
+          <div class="saidas">
+            <p id="resposta"></p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img
+            src="./Stylesheet/imgs/NFSUNodes.jpg"
+            alt="Descrição da imagem"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">Copyright © NFS</div>
+  </body>
+</html>
