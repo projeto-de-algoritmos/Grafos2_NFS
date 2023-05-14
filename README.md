@@ -1,7 +1,7 @@
 # NFS (Need For Speed)
 
 **Número da Lista**: 09<br>
-**Conteúdo da Disciplina**: Grafos 1<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
 
