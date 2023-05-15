@@ -2,6 +2,7 @@ const form = document.querySelector("#form");
 const resposta = document.querySelector("#resposta");
 const bfsButton = document.querySelector(".submit-bfs");
 const dfsButton = document.querySelector(".submit-dfs");
+const djikstraButton = document.querySelector(".submit-djikstra");
 const restartButton = document.querySelector(".restart-graph");
 const initialNode = document.querySelector("#initial-node");
 const finalNode = document.querySelector("#final-node");
@@ -16,6 +17,7 @@ form.addEventListener("submit", (event) => {
   } else {
     bfsButton.style.display = "none";
     dfsButton.style.display = "none";
+    djikstraButton.style.display = "none";
     restartButton.removeAttribute("style");
   }
 });
@@ -26,4 +28,13 @@ function rodaBfs() {
 
 function rodaDfs() {
   resposta.textContent = dfs(initialNode.value, finalNode.value);
+}
+
+function rodaDijkstra() {
+  const [distanciaTotal, caminho] = dijkstra(
+    initialNode.value,
+    finalNode.value
+  );
+  resposta.textContent = `Caminho mais curto: ${caminho}
+  Distancia percorrida: ${distanciaTotal}m`;
 }

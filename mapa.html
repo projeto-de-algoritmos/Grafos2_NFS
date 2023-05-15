@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Stylesheet/mapaStyle.css" />
     <script src="./Scripts/grafo.js" defer></script>
+    <script src="./Scripts/grafo_dijkstra.js" defer></script>
     <script src="./Scripts/form.js" defer></script>
     <title>Grafo NFS</title>
   </head>
@@ -51,6 +52,12 @@
                 type="submit"
                 value="DFS"
                 onclick="rodaDfs()"
+              />
+              <input
+                class="submit-djikstra"
+                type="submit"
+                value="Dijkstra"
+                onclick="rodaDijkstra()"
               />
             </form>
             <button

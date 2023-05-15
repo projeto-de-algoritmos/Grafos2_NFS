@@ -104,7 +104,7 @@ a {
 .submit-dfs {
   position: relative;
   top: 80px;
-  left: 100px;
+  left: 20px;
   background-color: purple;
   font-family: "nfs_fontregular";
   border: none;
@@ -126,7 +126,7 @@ a {
 .submit-bfs {
   position: relative;
   top: 80px;
-  left: 80px;
+  left: 10px;
   background-color: purple;
   font-family: "nfs_fontregular";
   border: none;
@@ -145,13 +145,36 @@ a {
   background-color: #e65300;
 }
 
+.submit-djikstra {
+  position: relative;
+  top: 80px;
+  left: 30px;
+  background-color: purple;
+  font-family: "nfs_fontregular";
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.submit-djikstra:hover {
+  background-color: #e65300;
+}
+
 #resposta {
   color: white;
 }
 
 .restart-graph {
   position: relative;
-  top: 50px;
+  top: 70px;
+  left: 100px;
   background-color: purple;
   font-family: "nfs_fontregular";
   border: none;
