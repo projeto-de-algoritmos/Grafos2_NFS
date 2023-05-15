@@ -17,9 +17,8 @@ O objetivo do projeto é reformular o GPS do jogo Need For Speed Underground 2, 
 ## Screenshots
 
 <img src=".\Stylesheet\imgs\telaInicial.png">
-<img src=".\Stylesheet\imgs\telaGrafo.png">
-<img src=".\Stylesheet\imgs\bfs.png">
-<img src=".\Stylesheet\imgs\dfs.png">
+<img src=".\Stylesheet\imgs\tela2.jpg">
+<img src=".\Stylesheet\imgs\tela3.jpg">
 
 ## Instalação
 
