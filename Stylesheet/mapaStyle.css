@@ -103,7 +103,7 @@ a {
 
 .submit-dfs {
   position: relative;
-  top: 80px;
+  top: 20px;
   left: 20px;
   background-color: purple;
   font-family: "nfs_fontregular";
@@ -125,7 +125,7 @@ a {
 
 .submit-bfs {
   position: relative;
-  top: 80px;
+  top: 20px;
   left: 10px;
   background-color: purple;
   font-family: "nfs_fontregular";
@@ -147,7 +147,7 @@ a {
 
 .submit-djikstra {
   position: relative;
-  top: 80px;
+  top: 20px;
   left: 30px;
   background-color: purple;
   font-family: "nfs_fontregular";
@@ -174,7 +174,7 @@ a {
 
 .restart-graph {
   position: relative;
-  top: 70px;
+  top: 20px;
   left: 100px;
   background-color: purple;
   font-family: "nfs_fontregular";
@@ -191,6 +191,8 @@ a {
 }
 
 .textbox {
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 190px;
 }
 
