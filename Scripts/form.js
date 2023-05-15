@@ -35,6 +35,7 @@ function rodaDijkstra() {
     initialNode.value,
     finalNode.value
   );
-  resposta.textContent = `Caminho mais curto: ${caminho}
-  Distancia percorrida: ${distanciaTotal}m`;
+  resposta.innerHTML = `Caminho mais curto : ${caminho.join(
+    " -> "
+  )} <br> <br> distancia percorrida: ${distanciaTotal} metros`;
 }
